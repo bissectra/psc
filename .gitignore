@@ -1,2 +1,4 @@
 lib/
 .venv/
+tmp/
+__pycache__/
