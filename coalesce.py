@@ -161,4 +161,3 @@ def main(n = 10000, k=5):
     # For after writing your spectrum function.
     # mean_msq /= nreps
     # print("mean msq:", mean_msq)
-    
