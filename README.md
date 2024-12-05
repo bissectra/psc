@@ -1,5 +1,41 @@
 # PSC
 
+## Organisation des fichiers
+
+01. cannings.ipynb : Premier notebook pour le modèle de Cannings. En fait on utilise que le Wright-Fisher, mais on a gardé le nom de Cannings pour ce notebook.
+
+02. genealogy.html : Visualisation de la généalogie des individus dans le modèle de Cannings.
+
+03. mutations.txt : output of reconstruct.ipynb
+
+04. reconstruct.ipynb : Essai de reconstruction de l'arbre généalogique des individus avec l'information de mutations (ça n'a pas marché).
+
+05. nca.ipynb : Notebook pour l'étude de la dynamique des mutations, notamment la statistique d'alleles non fixés (erronément appelée NCA - non coalesced alleles). 
+
+06. nca.png : Figure de la statistique NCA.
+
+07. wright_fisher.ipynb : Notebook pour l'étude du modèle de Wright-Fisher, qui plot encore la statistique NCA.
+
+08. coalesce.py : fichier trouvé sur internet pour faire la coalescence des arbres généalogiques.
+
+09. coalesce.ipynb : Notebook pour essayer de faire la coalescence manuellement, avec mutations.
+
+10. coalesce2.ipynb : Coalescence + non fixated mutations, encore avec mutations.
+
+11. msprime.ipynb : Notebook pour essayer de faire la coalescence avec msprime. Ça marche mieux que les autres méthodes.
+
+12-15. wf.ipynb à wf4.ipynb : Notebooks brouillons pour le modèle de Wright-Fisher. Sur wf 4 on commence à faire des maths.
+
+16. msprime2.ipynb : Notebook pour essayer de faire la coalescence avec msprime, mais sans mutations. Nous regardons seulement le nombre et taille des branches.
+ 
+17. output.png : A beautiful graph of the coalescent expected value as a function of time.
+
+18. coalescent.ipynb : On a réussi a calculer la loi hypoexponentielle que donne l'espérance du modèle de coalescence. On plot quelques graphiques sympas.
+
+19. wf5.ipynb : document vide ??
+
+20. lwf: on essaye de faire un modèle de Wright-Fisher à main mais Lazy, qui ne calcule pas tout à chaque itération, mais seulement quand c'est nécessaire.
+
 ## Offre PSC
 
 Offre PSC - Mathématiques Appliquées (MAP)
